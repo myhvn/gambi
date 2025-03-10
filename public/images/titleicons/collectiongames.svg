@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="katman_1" data-name="katman 1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Adsız_degrade_12-2);
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: url(#Adsız_degrade_12);
+      }
+
+      .cls-3 {
+        fill: url(#Adsız_degrade_12-3);
+      }
+
+      .cls-4 {
+        fill: url(#Adsız_degrade_12-4);
+      }
+
+      .cls-5 {
+        fill: url(#Adsız_degrade_12-5);
+      }
+
+      .cls-6 {
+        fill: url(#Adsız_degrade_12-6);
+      }
+    </style>
+    <linearGradient id="Adsız_degrade_12" data-name="Adsız degrade 12" x1="8.39" y1="15.05" x2="8.39" y2="6.61" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#136b4d"/>
+      <stop offset="1" stop-color="#62eea3"/>
+    </linearGradient>
+    <linearGradient id="Adsız_degrade_12-2" data-name="Adsız degrade 12" x1="23.61" y1="15.05" x2="23.61" xlink:href="#Adsız_degrade_12"/>
+    <linearGradient id="Adsız_degrade_12-3" data-name="Adsız degrade 12" x1="8.34" y1="25.39" x2="8.34" y2="17" xlink:href="#Adsız_degrade_12"/>
+    <linearGradient id="Adsız_degrade_12-4" data-name="Adsız degrade 12" x1="23.66" y1="25.39" x2="23.66" y2="17" xlink:href="#Adsız_degrade_12"/>
+    <linearGradient id="Adsız_degrade_12-5" data-name="Adsız degrade 12" x1="16" y1="17.76" x2="16" y2="14.32" xlink:href="#Adsız_degrade_12"/>
+    <linearGradient id="Adsız_degrade_12-6" data-name="Adsız degrade 12" x1="16" y1="23.96" x2="16" y2="8.23" xlink:href="#Adsız_degrade_12"/>
+  </defs>
+  <path class="cls-2" d="M7.65,15.05c.1-.19.23-.37.39-.53l4.53-4.53s-.02-.03-.03-.04l-2.91-2.91c-.29-.29-.67-.43-1.05-.43s-.76.14-1.05.43l-2.91,2.91c-.58.58-.58,1.52,0,2.1l2.91,2.91s.07.07.11.1Z"/>
+  <path class="cls-1" d="M24.46,7.04c-.29-.29-.67-.43-1.05-.43s-.76.14-1.05.43l-2.91,2.91s-.02.02-.03.04l4.53,4.53c.16.16.29.34.39.53.04-.03.07-.06.11-.1l2.91-2.91c.58-.58.58-1.52,0-2.1l-2.91-2.91Z"/>
+  <path class="cls-3" d="M7.59,17s-.03.03-.05.04l-2.91,2.91c-.58.58-.58,1.52,0,2.1l2.91,2.91c.29.29.67.43,1.05.43s.76-.14,1.05-.43l2.85-2.85-4.44-4.44c-.19-.19-.34-.42-.45-.66Z"/>
+  <path class="cls-4" d="M24.46,17.05s-.03-.03-.05-.04c-.11.24-.26.46-.45.66l-4.44,4.44,2.85,2.85c.29.29.67.43,1.05.43s.76-.14,1.05-.43l2.91-2.91c.58-.58.58-1.52,0-2.1l-2.91-2.91Z"/>
+  <path class="cls-5" d="M16,14.32l-.53,1.11-1.22.19.88.9-.2,1.24,1.06-.58,1.06.58-.2-1.24.88-.9-1.21-.18-.52-1.11Z"/>
+  <path class="cls-6" d="M23.43,15.04l-6.39-6.39c-.29-.29-.67-.43-1.05-.43s-.76.14-1.05.43l-6.39,6.39c-.58.58-.58,1.52,0,2.1l6.39,6.39c.29.29.67.43,1.05.43s.76-.14,1.05-.43l6.39-6.39c.58-.58.58-1.52,0-2.1ZM18.35,16.05l-.7.71.17,1.01c.05.32-.05.51-.14.62-.11.13-.27.2-.44.2-.13,0-.26-.04-.39-.11l-.85-.47-.85.47c-.32.17-.65.13-.83-.09-.09-.11-.19-.3-.14-.62l.16-1.01-.7-.71c-.21-.22-.29-.48-.21-.71.08-.23.29-.39.59-.44l.95-.14.43-.91c.19-.4.48-.44.6-.44s.41.04.6.44l.43.91.95.14c.3.04.51.2.59.44.08.24,0,.5-.22.71Z"/>
+</svg>

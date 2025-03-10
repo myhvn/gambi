@@ -1,0 +1,170 @@
+@keyframes homeRays {
+  0%,
+  100% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+.animate-home-rays {
+  animation: homeRays 5s infinite ease-in-out;
+  animation-delay: 2s;
+}
+.bg-custom {
+  background-image: url("/images/home/gamb.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  z-index: 1;
+}
+
+.mask-overlay {
+  background-image: url("/images/home/gambmask.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.1;
+  z-index: 2;
+}
+.casino-gradient {
+  background: linear-gradient(
+    270.43deg,
+    rgb(25, 32, 50) -8.98%,
+    rgb(25, 32, 50) 53.91%,
+    rgb(0, 50, 133) 129.42%
+  );
+}
+
+.sports-gradient {
+  background: linear-gradient(
+    90deg,
+    rgb(25, 32, 50) -8.98%,
+    rgb(25, 32, 50) 53.91%,
+    rgb(255, 127, 62) 129.42%
+  );
+}
+.switch-circle {
+  background: linear-gradient(0deg, #10c561, #11f5a8) !important;
+}
+
+.scrollend {
+  z-index: 3;
+  pointer-events: none;
+  position: absolute;
+  inset: 0px 0px auto auto;
+  width: 40px;
+  height: 100%;
+  background: linear-gradient(to left, #121826, rgba(16, 19, 26, 0));
+}
+
+/* BOTTOM INFO */
+.see-more.next-fcxq5c.next-fcxq5c {
+  width: 100%;
+  position: relative;
+  border-radius: var(--radius-md);
+  background-color: var(--table-button-color);
+  max-height: var(--max-height);
+  overflow: hidden;
+}
+.see-more.next-fcxq5c .content.next-fcxq5c {
+  padding: var(--space-4);
+  max-height: var(--max-height);
+}
+.see-more.next-fcxq5c .content.next-fcxq5c:before {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    0deg,
+    var(--table-button-color) 0%,
+    rgba(15, 33, 46, 0) 100%
+  );
+}
+.column-container.next-1qd3faq {
+  -moz-column-gap: var(--space-6);
+  column-gap: var(--space-6);
+  -moz-column-break-before: avoid;
+  break-before: avoid;
+}
+.content-block.next-70tzz6 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.see-more.next-fcxq5c .button-wrapper.next-fcxq5c {
+  position: sticky;
+  bottom: var(--space-6);
+  z-index: 2;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.see-more.is-open.next-fcxq5c.next-fcxq5c {
+  max-height: 100% !important;
+}
+.see-more-button {
+  color: black;
+  background: linear-gradient(0deg, #10c561, #11f5a8) !important;
+}
+/* BOTTOM INFO */
+.registerbg {
+  background: linear-gradient(0deg, #0ee18269, #192032 50%, #192032);
+}
+.match-button {
+  background: linear-gradient(0deg, #0ee18269, #192032 50%, #192032);
+}
+.match-button:hover{
+  background: linear-gradient(180deg, #0ee18269, #192032 50%, #192032);
+}
+.match-bg {
+  background-image: url(/images/home/match/background.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.slot .game-card {
+  transition: .3s;
+}
+@media (hover: hover) {
+  .slot .game-card:hover {
+      transform: translateY(-4%);
+  }
+}
+.live .game-card {
+  transition: .3s;
+}
+@media (hover: hover) {
+  .live .game-card:hover {
+      transform: translateY(-4%);
+  }
+}
+.provider .game-card {
+  transition: .3s;
+}
+@media (hover: hover) {
+  .provider .game-card:hover {
+      transform: translateY(-4%);
+  }
+}
+.original .game-card {
+  transition: .3s;
+}
+@media (hover: hover) {
+  .original .game-card:hover {
+      transform: translateY(-4%);
+  }
+}
+@media (max-width: 1030px) {
+  .casinogames {
+      display: none !important;
+  }
+
+  .slotgames {
+      display: none !important;
+  }
+}

@@ -1,0 +1,130 @@
+.collection-slider__top {
+  align-items: center;
+  color: var(--block-title-color);
+  display: flex;
+  height: 32px;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  padding-right: 0;
+}
+
+.collection-slider__title {
+  align-items: center;
+  color: white;
+  display: flex;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.3;
+  padding: 0;
+}
+
+.collection-slider__icon {
+  color: var(--block-title-icon);
+  font-size: 24px;
+  margin-right: 12px;
+}
+
+.collection-slider__see-more-btn {
+  color: var(--button-text);
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: -0.24px;
+  line-height: 1.3;
+  text-transform: capitalize;
+  transition: color 0.3s ease;
+}
+
+.collection-slider__actions {
+  display: flex;
+  align-items: center;
+}
+.circle-div {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: rgba(174, 143, 246, 0.05);
+  margin-left: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle-div .icon {
+  color: white;
+}
+@media (max-width: 1268px) {
+  .circle-div {
+    display: none;
+  }
+}
+
+.collection .game-card {
+  background-color: #182132;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 400px;
+  color: white;
+  position: relative;
+}
+
+.collection .game-card__image-container {
+  width: 100%;
+  text-align: center;
+}
+
+.collection .game-card__image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.collection .game-card__content {
+  width: 100%;
+  text-align: left;
+  bottom: 16px;
+  left: 16px;
+}
+
+.collection .game-card__name {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.collection .game-card__origin {
+  font-size: 12px;
+  color: #10dc83;
+}
+.collection .games-text {
+  top: 16px;
+  left: 16px;
+  font-size: 24px;
+  color: white;
+}
+
+.collection .see-games-button {
+  bottom: 16px;
+  left: 16px;
+  background-color: #10dc83;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 11px;
+}
+
+.collection .see-games-button:hover {
+  background: linear-gradient(0deg, #0ee18269, #192032 50%, #192032);
+}
+
+.scrollend {
+  z-index: 3;
+  pointer-events: none;
+  position: absolute;
+  inset: 0px 0px auto auto;
+  width: 40px;
+  height: 100%;
+  background: linear-gradient(to left, #121826, rgba(16, 19, 26, 0));
+}

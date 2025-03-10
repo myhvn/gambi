@@ -1,0 +1,123 @@
+.original-slider__top {
+  align-items: center;
+  color: var(--block-title-color);
+  display: flex;
+  height: 32px;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  padding-right: 0;
+}
+
+.original-slider__title {
+  align-items: center;
+  color: white;
+  display: flex;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.3;
+  padding: 0;
+}
+
+.original-slider__icon {
+  color: var(--block-title-icon);
+  font-size: 24px;
+  margin-right: 12px;
+}
+
+.original-slider__see-more-btn {
+  color: var(--button-text);
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: -0.24px;
+  line-height: 1.3;
+  text-transform: capitalize;
+  transition: color 0.3s ease;
+}
+
+.original-slider__actions {
+  display: flex;
+  align-items: center;
+}
+.circle-div {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: rgba(
+    174,
+    143,
+    246,
+    0.05
+  ); /* İstediğiniz renge göre değiştirin */
+  margin-left: 8px; /* Butonlar arasında boşluk */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle-div .icon {
+  color: white; /* İkon rengi */
+}
+@media (max-width: 1268px) {
+  .circle-div {
+    display: none;
+  }
+}
+
+.original .game-card {
+  background: linear-gradient(0deg, #121826, #182132, #182132);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  color: white;
+  position: relative;
+}
+
+.original .game-card__image-container {
+  width: 100%;
+  text-align: center;
+}
+
+.original .game-card__image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.original .game-card__content {
+  width: 100%;
+  text-align: left;
+  bottom: 16px;
+  left: 16px;
+}
+
+.original .game-card__name {
+  font-size: 11px;
+  font-weight: bold;
+  font-family: RatioRegular;
+}
+
+.original .game-card__origin {
+  font-family: RatioRegular;
+  font-size: 10px;
+  color: #10dc83;
+}
+.original .game-card {
+    transition: .3s;
+}
+
+.original .game-card:hover {
+    transform: translateY(-4%);
+}
+
+.scrollend {
+    z-index: 3;
+    pointer-events: none;
+    position: absolute;
+    inset: 0px 0px auto auto;
+    width: 40px;
+    height: 100%;
+    background: linear-gradient(to left, #121826, rgba(16, 19, 26, 0));
+  }

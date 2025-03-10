@@ -1,0 +1,73 @@
+.promotion .card {
+  background-color: var(--promotion-background);
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 390px;
+  font-family: Ratioblack;
+  min-height: 200px;
+  max-height: 200px;
+}
+
+.promotion .card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.promotion .tag {
+  background-color: white;
+  color: black;
+  padding: 5px 15px;
+  border-radius: 15px;
+  margin-right: 10px;
+  font-size: 13px;
+}
+
+.promotion .title {
+  font-size: 18px;
+  margin: 0;
+  font-family: RatioSemiBold;
+  color: white;
+}
+
+.promotion .card-body {
+  background: linear-gradient(270deg, #0ee18269, #121826 50%, #121826);;
+  border-radius: 10px;
+  padding: 20px;
+  position: relative;
+}
+
+.promotion .description {
+  margin: 0 0 20px 0;
+  max-width: 240px;
+  font-size: 13px;
+  font-family: RatioRegular;
+}
+
+.promotion .learn-more {
+  color: var(--logo-color);
+  padding: 5px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  border-color: var(--logo-color);
+  border-width: 2px;
+  border-style: solid;
+  background-color: transparent;
+  font-size: 13px;
+}
+
+.promotion .learn-more:hover {
+  background: linear-gradient(0deg, #0ee18269, #192032 50%, #192032);
+}
+
+.promotion .rocket {
+  position: absolute;
+  top: -50px;
+  right: 0px;
+  width: 110px;
+}

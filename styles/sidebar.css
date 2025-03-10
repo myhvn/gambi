@@ -1,0 +1,423 @@
+.sidebar {
+  transition: width 0.3s ease-in-out;
+}
+.sidebar.next-1qc86l4 {
+  word-wrap: break-word;
+  position: relative;
+  background: var(--transparent-background);
+  filter: drop-shadow(0 0 5px rgba(25, 25, 25, 0.25));
+  display: flex;
+  flex-direction: column;
+  z-index: var(--z-index);
+  flex-shrink: 0;
+  height: 100%;
+  will-change: margin-left;
+}
+.sidebar.normal.next-1qc86l4 {
+  width: var(--width);
+}
+.header.next-1hoeywl {
+  display: flex;
+  padding: 0 var(--space-4) 0 0;
+  touch-action: none;
+  box-shadow: var(--shadows-lg);
+}
+.header.collapsed.next-1hoeywl {
+  flex-direction: column;
+  padding: 0 0 var(--space-2);
+  box-shadow: none;
+}
+.menu-button.next-1hoeywl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  min-width: 3.75rem;
+  height: 3.75rem;
+  border-radius: var(--radius-base);
+}
+.menu-button.collapsed.next-1hoeywl {
+  box-shadow: var(--shadows-lg);
+  background: var(--navigation-background);
+}
+.link-wrap.next-1hoeywl {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  width: 100%;
+}
+
+.link-wrap.collapsed.next-1hoeywl {
+  flex-direction: column;
+  padding: var(--space-4) 0 0;
+}
+
+.header-button.next-jby8ge {
+  position: relative;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: var(--space-9);
+  border-radius: var(--radius-2xl);
+  color: var(--white);
+  font-size: var(--text-size-default);
+  font-weight: 700;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.2);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.header-button.home.collapsed.next-jby8ge {
+  width: 2.75rem;
+  height: 2.75rem;
+  flex: unset;
+  background: var(--sidebar-button-color);
+}
+
+.header-button.casino.next-jby8ge {
+  background-image: url(/images/sidebar/casino-long.jpg);
+}
+.header-button.casino.collapsed.next-jby8ge {
+  width: 2.75rem;
+  height: 2.75rem;
+  flex: unset;
+  background-image: url(/images/sidebar/casino-small.jpg);
+}
+.image-loader.next-jby8ge {
+  position: absolute;
+  width: 0;
+  height: 0;
+  /*background-image: url(/_app/immutable/assets/casino-poker-cards.Cn8PuVZc.jpg),
+    url(/_app/immutable/assets/casino-poker-cards-small.BDJDxVwC.jpg),
+    url(/_app/immutable/assets/casino-poker-cards-green.CkPznpWy.jpg),
+    url(/_app/immutable/assets/casino-poker-cards-small-green.BxMzSaYt.jpg),
+    url(/_app/immutable/assets/sports-balls.DXRyjHgg.jpg),
+    url(/_app/immutable/assets/sports-balls-small.BLSrblk0.jpg),
+    url(/_app/immutable/assets/sports-balls-orange.CiUCy8an.jpg),
+    url(/_app/immutable/assets/sports-balls-small-orange.D_I_dSbl.jpg);*/
+}
+.header-button.sports.next-jby8ge {
+  background-image: url(/images/sidebar/sport-long.jpg);
+}
+.header-button.sports.collapsed.next-jby8ge {
+  width: 2.75rem;
+  height: 2.75rem;
+  flex: unset;
+  background-image: url(/images/sidebar/sport-small.jpg);
+}
+.scrollY {
+  overflow-y: auto;
+  overflow-x: hidden;
+  min-height: 0;
+  -webkit-overflow-scrolling: touch;
+  -webkit-overflow-scroll: touch;
+  scrollbar-width: thin;
+}
+.content.next-1qc86l4 {
+  display: flex;
+  overflow: hidden;
+}
+.scrollable-content.next-1qc86l4 {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  scrollbar-gutter: stable;
+  padding: 0 2px 0 var(--space-2);
+}
+.section-wrapper.next-oc0lpz {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  background-color: var(--sidebar-button-color);
+  border-radius: var(--radius-2xl);
+}
+.hoverable.next-bbyuql {
+  cursor: help;
+  display: inline-flex;
+}
+/* NOT COLLEP */
+.sidebar.next-12qp7by.next-12qp7by {
+  word-wrap: break-word;
+  position: relative;
+  background: var(--sidebar-background);
+  filter: drop-shadow(0 0 5px rgba(25, 25, 25, 0.25));
+  display: flex;
+  flex-direction: column;
+  z-index: var(--z-index);
+  flex-shrink: 0;
+  height: 100%;
+  will-change: margin-left;
+}
+.sidebar.next-12qp7by .section-wrapper.next-oc0lpz {
+  background-color: #252f48 !important;
+}
+.sidebar.normal.next-12qp7by.next-12qp7by {
+  width: var(--width);
+}
+.inner-content.next-12qp7by.next-12qp7by {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+.scrollable-content.next-12qp7by.next-12qp7by {
+  padding: var(--space-4);
+}
+
+.sidebar.next-12qp7by .scroll-contain.next-12qp7by {
+  overscroll-behavior: contain;
+}
+
+.sidebar.small.next-12qp7by.next-12qp7by {
+  width: var(--width);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.sidebar.fullsize.next-12qp7by.next-12qp7by {
+  position: fixed;
+  top: var(--header-height);
+  padding-bottom: var(--header-height);
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+}
+
+/*  MOBILE NOT COLLEP */
+.search-wrap.next-12b0zpm {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  touch-action: pan-x;
+}
+.input-wrap.next-17iva6n.next-17iva6n {
+  width: 100%;
+  color: var(--input-color);
+  background: var(--input-background);
+  box-shadow: var(--input-box-shadow);
+  border: var(--input-border-width) solid var(--input-border);
+  border-radius: var(--input-border-radius);
+  letter-spacing: var(--input-letter-spacing);
+  font-weight: var(--input-font-weight);
+  transition: all var(--input-transition);
+  outline: 0;
+  margin: 0;
+  cursor: text;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-size: var(--text-size-default);
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  padding: 0 var(--space-4);
+}
+.input-wrap.mobile.next-17iva6n.next-17iva6n {
+  margin: var(--space-4);
+  width: auto;
+}
+.input-wrap.mobile.next-17iva6n.next-17iva6n,
+.input-wrap.mobile.next-17iva6n .next-17iva6n {
+  touch-action: pan-x;
+}
+.search-icon.next-17iva6n.next-17iva6n {
+  z-index: 2;
+  color: var(--grey-300);
+  font-size: var(--text-size-lg);
+  margin-bottom: -3px;
+}
+.input-wrap.mobile.next-17iva6n.next-17iva6n,
+.input-wrap.mobile.next-17iva6n .next-17iva6n {
+  touch-action: pan-x;
+}
+input.next-17iva6n.next-17iva6n {
+  width: 100%;
+  outline: 0;
+  background: var(--input-background);
+  color: var(--input-color);
+  padding: var(--space-2);
+  cursor: text;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.input-wrap.mobile.bext-17iva6n.next-17iva6n,
+.input-wrap.mobile.next-17iva6n .next-17iva6n {
+  touch-action: pan-x;
+}
+.header-button.mobile.next-jby8ge {
+  min-height: 3rem;
+  min-width: 5rem;
+  max-height: 5rem;
+  justify-content: end;
+  background-position: 0 -15px;
+  padding-right: 0.75rem;
+  aspect-ratio: 3.5/1;
+}
+.header-buttons.next-1hvoy0v {
+  display: flex;
+  gap: var(--space-2);
+  padding: 0 var(--space-4) var(--space-4);
+}
+
+.scrollable-content-mobile.next-12qp7by.next-12qp7by {
+  padding: 0 var(--space-4);
+  padding-bottom: var(--space-20);
+}
+.sidebar.next-12qp7by .scroll-contain.next-12qp7by {
+  overscroll-behavior: contain;
+}
+
+.header-button.casino.active.collapsed.next-jby8ge,
+.header-button.casino:hover.collapsed.next-jby8ge {
+  background-image: url(/images/sidebar/casino-small-hover.jpg);
+}
+.header-button.sports.active.collapsed.next-jby8ge,
+.header-button.sports:hover.collapsed.next-jby8ge {
+  background-image: url(/images/sidebar/sport-small-hover.jpg);
+}
+.header-button.casino.active.next-jby8ge,
+.header-button.casino.next-jby8ge:hover {
+  background-image: url(/images/sidebar/casino-long-hover.jpg);
+}
+.header-button.sports.active.next-jby8ge,
+.header-button.sports.next-jby8ge:hover {
+  background-image: url(/images/sidebar/sport-long-hover.jpg);
+}
+.hoverable.next-bbyuql:hover {
+  background-color: #ffffff0d;
+  border-radius: var(--radius-2xl);
+}
+.hoverable.next-bbyuql:hover svg {
+  fill: var(--logo-color) !important;
+}
+a.base-sidebar-anchor.max-w-full.next-1ih38ux:hover {
+  background-color: #ffffff0d;
+  border-radius: var(--radius-2xl);
+}
+a.base-sidebar-anchor.max-w-full.next-1ih38ux:hover svg {
+  fill: var(--logo-color) !important;
+}
+.header.next-1womt0u.header-stacked:hover {
+  background-color: #ffffff0d;
+  border-radius: var(--radius-2xl);
+}
+.header.next-1womt0u.header-stacked:hover svg {
+  fill: var(--logo-color) !important;
+}
+
+.sidebar-accordion.next-st4gv1 .sidebar-content button:hover {
+  background-color: #ffffff0d;
+  border-radius: var(--radius-2xl);
+}
+.sidebar-accordion.next-st4gv1 .sidebar-content button:hover svg {
+  fill: var(--logo-color) !important;
+}
+
+.accordion.next-1womt0u.next-1womt0u {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+  z-index: 0;
+  border-radius: var(--radius-base);
+}
+
+.header.next-1womt0u.next-1womt0u {
+  z-index: 4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--accordion-header-background);
+  padding: .9375rem 1.25rem;
+}
+
+.header-stacked.next-1womt0u.next-1womt0u {
+  padding: 0;
+}
+
+.header-title.next-1womt0u.next-1womt0u {
+  transition: .2s;
+}
+
+.sidebar-accordion-title.next-st4gv1 {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.is-truncate.next-17o987 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inherit;
+}
+
+.content.next-1womt0u.next-1womt0u {
+  display: flex;
+  flex-direction: column;
+}
+
+.content.render-content.next-1womt0u.next-1womt0u:not(.content-stacked-open) {
+  display: none;
+}
+
+.line-wrapper.next-1sfce85:not(.padded) {
+  padding: 0;
+}
+
+hr.next-1sfce85 {
+  background: #596374;
+  height: 2px;
+  width: 100%;
+}
+
+.content.next-12qp7by.next-12qp7by {
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  align-content: flex-start;
+  padding: 0;
+  touch-action: pan-x;
+  flex: 1;
+}
+.next-1womt000{
+  background-color: #596374;
+}
+.next-1womt001{
+  background-color: #1f283d;
+}
+.section-wrapper.next-oc0lpzts {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  border-radius: var(--radius-2xl);
+}
+
+.next-oc0lpzts{
+  background-color: transparent !important;
+}
+
+.maxWidth25{
+  max-width: 25%;
+}
+
+.littleBox{
+  background-color: #252f48;
+  border-radius: var(--radius-2xl);
+}
+
+.littleBox button:hover {
+  background-color: #ffffff0d;
+  border-radius: var(--radius-2xl);
+}
+.littleBox button:hover svg {
+  fill: var(--logo-color) !important;
+}

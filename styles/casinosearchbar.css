@@ -1,0 +1,83 @@
+.casino-search-bar-container {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%; 
+    margin: 0 auto; 
+    background-color: rgb(27 32 49);
+    border-radius: 10px;
+}
+
+.search-wrap {
+    position: relative;
+    flex: 1;
+    max-width: 400px;
+}
+
+.casino-search-input {
+    background-color: rgb(19, 24, 37);
+    color: rgb(54, 68, 59);
+    border: none;
+    border-radius: 15px;
+    padding: 5px 30px 5px 30px;
+    margin: 10px;
+    width: 100%;
+    transition: width 0.3s ease-in-out;
+    font-size: 12px;
+    outline: none; 
+}
+
+.casino-search-input.active {
+    width: 100%;
+}
+
+.search-icon {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #ccc; 
+}
+
+.casino-search-info {
+    background-color: rgb(27 32 49);
+    margin-top: 60px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .casino-search-info p {
+    margin: 10px 0 90px 0;
+    font-size: 12px;
+    text-align: center;
+    color: #6c757d;
+  }
+  
+
+.button-group {
+    display: flex;
+    gap: 10px;
+    margin-left: 20px; 
+}
+
+.search-btn {
+    padding: 5px 15px;
+    margin: 10px;
+    color: #fff;
+    font-size: small;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    flex-shrink: 0; 
+}
+
+.search-btn.active {
+    background-color: rgb(38, 47, 74);
+}
+
+.search-btn:hover {
+    background-color: rgb(38, 47, 74);
+}
